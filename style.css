@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100&display=swap");
+
+:root {
+  --primary-color: #172b3b;
+  --secondary-color: #f4797a;
+  --color-fond: #e2ebf3;
+  --primary-font: "League Spartan";
+  --secondary-font: "Bebas Neue";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--color-fond);
+}
+
+section:first-child {
+  margin: 8px;
+}
+
+.barre {
+  height: 2px;
+  width: 100vw;
+  background-color: var(--primary-color);
+}
+
+section > h2 {
+  text-align: center;
+  font-family: var(--primary-font);
+}
+
+.boutton {
+  text-align: center;
+}
+
+button {
+  margin-top: 50px;
+  margin-left: 5px;
+  padding: 10px 30px;
+  font-size: 2.5rem;
+  color: white;
+  background: var(--secondary-color);
+  box-shadow: 6px 6px 0 black;
+  transform: skewX(-15deg);
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #511ebe;
+  box-shadow: 8px 8px 0 var(--primary-color);
+  top: 50px;
+  transition: 0.5s;
+}
+button:active {
+  transform: scale(0.95);
+}
