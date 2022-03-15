@@ -1,0 +1,10 @@
+:root {
+ --firstColor: #172b3b;
+ --secondColor: #e2ebf3;
+ --thirdColor: #f4797a;
+}
+
+main {
+ height: 10rem;
+ margin-top: 10rem;
+}
