@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100&display=swap");
+
+:root {
+  --primary-color: #172b3b;
+  --secondary-color: #f4797a;
+  --color-fond: #e2ebf3;
+  --primary-font: "League Spartan";
+  --secondary-font: "Bebas Neue";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-fond);
+}
+
+.facility {
+  margin: 1rem auto;
+  width: 80vw;
+  /* padding: 2rem 0; */
+  border: var(--thirdColor) solid 4px;
+  border-radius: 10px;
+}
+
+details {
+  margin: 0;
+  padding: 0;
+}
+
+summary {
+  list-style: none;
+  border: yellowgreen 2px solid;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 2fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". . . .";
+}
+
+.adress {
+  border: rgb(205, 68, 50) 2px solid;
+}
+
+.itinerary {
+  border: rgb(24, 120, 133) 2px solid;
+}
+
+.distance {
+  border: rgb(42, 133, 24) 2px solid;
+}
+
+.star {
+  border: rgb(0, 0, 0) 2px solid;
+}
+
+.facilityPicture {
+  height: 20vw;
+  width: 20vw;
+  border: rgb(204, 0, 255) 2px solid;
+  filter: brightness(60%);
+  grid-column: 4 / 5;
+}
+.facilityPicture:hover {
+  filter: none;
+  transition: 0, 3s;
+}
+
+.note {
+  height: 1rem;
+  width: 1rem;
+  background-color: var(--color-fond);
+}
