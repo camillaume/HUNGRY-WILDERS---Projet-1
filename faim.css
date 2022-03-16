@@ -11,66 +11,38 @@
 }
 .faimCategorie{
     margin: 1rem auto;
-    width: 80vw;
-    padding: 2rem 0;
-    border: var(--thirdColor) solid 4px;
-    border-radius: 10px;
-    
+    width: 80vw;   
+    border-radius: 10px;    
 }
 .BackgroundBurger{
     background-image: url("images/pictureTag/burgerbagel.jpg");
     background-position: center center;
     background-size: cover;
-    filter: brightness(50%);
 }
-.BackgroundBurger:hover{
-    filter: none;
-}
-
 .BackgroundSandwich{
     background-image: url("images/pictureTag/sandwich.jpg");
     background-position: center center;
     background-size: cover;
-    filter: brightness(50%);
-}
-.BackgroundSandwich:hover{
-    filter: none;
 }
 .BackgroundPizza{
     background-image: url("images/pictureTag/pizza.jpg");
     background-position: center center;
     background-size: cover;
-    filter: brightness(50%);
-}
-.BackgroundPizza:hover{
-    filter: none;
 }
 .BackgroundMonde{
     background-image: url("images/pictureTag/monde.jpg");
     background-position: center center;
     background-size: cover;
-    filter: brightness(50%);
-}
-.BackgroundMonde:hover{
-    filter: none;
 }
 .BackgroundSalade{
     background-image: url("images/pictureTag/salade.jpg");
     background-position: center center;
     background-size: cover;
-    filter: brightness(50%);
-}
-.BackgroundSalade:hover{
-    filter: none;
 }
 .BackgroundVege{
     background-image: url("images/pictureTag/vege.jpg");
     background-position: center center;
     background-size: cover;
-    filter: brightness(50%);
-}
-.BackgroundVege:hover{
-    filter: none;
 }
 a{
     text-decoration: none;
@@ -80,7 +52,16 @@ a{
     font-family: var(--primary-font);
     text-align: center;
     font-size: 2em;
+    background:rgba(0, 0, 0, 0.616) ;
+    padding: 2.5rem 0;
+    border-radius: 10px;
+    border: var(--thirdColor) solid 4px;
 }
+.faimh2:hover{
+    background: none;
+}
+
+
 @media screen and (min-width:600px) {
     .mainCategorie{
         width: 90vw;
@@ -91,15 +72,20 @@ a{
         padding: 3rem;
     }
     .faimCategorie{
-        width: 25vw;
+        width: 25.1vw;
         height: 5vw;
-        padding: 4rem 0;
+        padding: 4.1rem 0;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .faimh2{
         font-size: 3em;
-        width: 100%;
+        width: 25vw;
+        height: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 0;
     }
 }
