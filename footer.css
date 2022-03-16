@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100&display=swap");
+
+
 :root {
  --firstColor: #172b3b;
  --secondColor: #e2ebf3;
  --thirdColor: #f4797a;
+ --primary-font: "League Spartan";
+ --secondary-font: "Bebas Neue";
 }
 
 footer{
@@ -14,7 +20,8 @@ footer{
 }
 footer p {
  color: var(--secondColor);
- margin-left: 0.8rem;
+ margin: 1rem 1rem;
+ font-family: var(--primary-font);
 }
 
 .linkGithub{
@@ -26,6 +33,7 @@ footer p {
 }
 .linkGithubName{
     width: 40%;
+    margin: 1rem 0;
 
 }
 .imgFooter {
@@ -36,22 +44,25 @@ footer p {
  margin: 0 auto 20px;
 }
 .h2Footer {
- color: var(--firstColor);
+ color: var(--secondColor);
  text-align: center;
  width: 250px;
  margin: 0 auto;
  border-bottom: var(--thirdColor) 2px solid;
+ font-family: var(--secondary-font);
+ letter-spacing: 0.2em;
 }
 .h3Footer {
- color: var(--firstColor);
+ color: var(--secondColor);
  text-align: center;
- padding: 0 10px 0 10px;
+ padding: 0 1rem 1rem 1rem;
  font-size: 1em;
+ font-family: var(--primary-font);
 }
 
 @media screen and (min-width:600px) {
     footer{
-        max-width: 90vw;
+        max-width: 100vw;
     }
     .linkGithubName{
         width: 25%;
@@ -74,13 +85,13 @@ footer p {
         color: var(--secondColor);
         text-align: center;
         width: 250px;
-        margin: 0 auto;
+        margin: 2rem auto;
         border-bottom: var(--thirdColor) 2px solid;
     }
     .h3Footer{
         color: var(--secondColor);
         text-align: center;
-        padding: 0 10px 0 10px;
+        padding: 0 1rem 1rem 1rem;
         font-size: 1.2em;
     }
 
