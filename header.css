@@ -1,22 +1,9 @@
 * {
- margin: 0%;
+  margin: 0%;
 }
 
 :root {
- --firstColor: #172b3b;
- --secondColor: #e2ebf3;
- --thirdColor: #f4797a;
-}
-
-header {
- display: flex;
- justify-content: center;
- align-items: center;
- height: 15vw;
- background-color: var(--firstColor);
- overflow: hidden;
-}
-
-.logohw {
- height: 25vw;
+  --firstColor: #172b3b;
+  --secondColor: #e2ebf3;
+  --thirdColor: #f4797a;
 }
