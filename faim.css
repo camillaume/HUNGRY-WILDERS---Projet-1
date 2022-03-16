@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100&display=swap");
+
+
+:root {
+ --firstColor: #172b3b;
+ --secondColor: #e2ebf3;
+ --thirdColor: #f4797a;
+ --primary-font: "League Spartan";
+ --secondary-font: "Bebas Neue";
+}
+.faimCategorie{
+    margin: 1rem auto;
+    width: 80vw;
+    padding: 2rem 0;
+    border: var(--thirdColor) solid 4px;
+    border-radius: 10px;
+    
+}
+.BackgroundBurger{
+    background-image: url("images/pictureTag/burgerbagel.jpg");
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(50%);
+}
+.BackgroundBurger:hover{
+    filter: none;
+}
+
+.BackgroundSandwich{
+    background-image: url("images/pictureTag/sandwich.jpg");
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(50%);
+}
+.BackgroundSandwich:hover{
+    filter: none;
+}
+.BackgroundPizza{
+    background-image: url("images/pictureTag/pizza.jpg");
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(50%);
+}
+.BackgroundPizza:hover{
+    filter: none;
+}
+.BackgroundMonde{
+    background-image: url("images/pictureTag/monde.jpg");
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(50%);
+}
+.BackgroundMonde:hover{
+    filter: none;
+}
+.BackgroundSalade{
+    background-image: url("images/pictureTag/salade.jpg");
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(50%);
+}
+.BackgroundSalade:hover{
+    filter: none;
+}
+.BackgroundVege{
+    background-image: url("images/pictureTag/vege.jpg");
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(50%);
+}
+.BackgroundVege:hover{
+    filter: none;
+}
+a{
+    text-decoration: none;
+}
+.faimh2{
+    color: white;
+    font-family: var(--primary-font);
+    text-align: center;
+    font-size: 2em;
+}
+@media screen and (min-width:600px) {
+    .mainCategorie{
+        width: 90vw;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 3rem;
+    }
+    .faimCategorie{
+        width: 25vw;
+        height: 5vw;
+        padding: 4rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .faimh2{
+        font-size: 3em;
+        width: 100%;
+    }
+}
