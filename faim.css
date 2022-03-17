@@ -55,7 +55,7 @@ a{
     background:rgba(0, 0, 0, 0.616) ;
     padding: 2.5rem 0;
     border-radius: 10px;
-    border: var(--thirdColor) solid 4px;
+    border: var(--thirdColor) solid 0.3vw;
 }
 .faimh2:hover{
     background: none;

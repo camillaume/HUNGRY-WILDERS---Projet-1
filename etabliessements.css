@@ -9,24 +9,28 @@
   --secondary-font: "Bebas Neue";
 }
 
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 
 body {
   background-color: var(--color-fond);
 }
+.facilities{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 .facility {
-  margin: 1rem auto;
-  width: 80vw;
-  /* padding: 2rem 0; */
-  border: var(--thirdColor) solid 0.7vw;
+  border: var(--thirdColor) solid 0.4vw;
   border-radius: 10px;
   font-weight: bold;
   padding: 1rem;
   background-color: var(--primary-color);
+  width: 80vw;
+  margin: 2vw 2vw;
 }
 
 h3 {
@@ -50,7 +54,7 @@ details {
 summary {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(2, 0.5fr) 1.5fr 1fr;
+  grid-template-columns: repeat(2, 1.5fr) 1.5fr 1fr;
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
@@ -112,29 +116,43 @@ details a {
 
 @media screen and (min-width: 600px) {
   .facilities {
-    width: 90vw;
-    margin: auto;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
   }
-
   .facility {
-    margin: 5em auto;
-  }
+    width: 40%;
+    margin: 1vw;
+  } 
   h3 {
-    /* font-size: 6vw; */
+    font-size: 3vw; 
     padding-top: 2vw;
-  }
-  /* .distance + p,
+  } 
+   .distance + p,
   .star + p {
-    font-size: 2.5vw;
+    font-size: 2vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
   }
   .distance,
   .star {
-    height: 8vw;
-    width: 8vw;
-    margin-top: 1.5vw;
-    margin-left: 3vw;
+    height: 4vw;
+    width: 4vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
   } */
   details {
     font-size: 2.5vw;
   }
+  .facilityPicture {
+    height: 12vw;
+    width: 15vw;
+    grid-area: 1 / 4 / 3 / 5;
+  }
+  .adress, .itinerary{
+    font-size: 2vw;
+  }
+  
 }
