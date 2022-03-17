@@ -34,12 +34,8 @@ header {
 /*   ------------------------- MAIN ----------------------- */
 .titleh2 {
   margin: 8px;
-}
-
-.barre {
-  height: 2px;
-  width: 100%;
-  background-color: var(--firstColor);
+  color: var(--firstColor);
+  font-style: var(--primary-font);
 }
 
 section > h2 {
@@ -187,10 +183,10 @@ footer p {
 }
 /*  -------------------------- RESPONSIF -------------------- */
 @media screen and (min-width: 600px) {
-  header{
+  header {
     height: 17vw;
   }
-  
+
   .logohw {
     height: 40vw;
     margin-bottom: 5vh;
