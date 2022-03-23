@@ -181,7 +181,33 @@ footer p {
   font-size: 1em;
   font-family: var(--primary-font);
 }
+
+/* bouton footer */
+
+.share > ul {
+  height: 40%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  border-radius: 5px;
+}
+a:visited {
+  color: white;
+}
+.share > ul > li {
+  list-style: none;
+  padding: 4px;
+}
+.fa-github:hover {
+  color: #4050ed;
+}
+.fa-linkedin:hover {
+  color: #0a66c2;
+}
 /*  -------------------------- RESPONSIF -------------------- */
+
 @media screen and (min-width: 600px) {
   header {
     height: 17vw;
@@ -233,5 +259,10 @@ footer p {
     text-align: center;
     padding: 0 1rem 1rem 1rem;
     font-size: 1.2em;
+  }
+  .cache {
+    height: 6%;
+    width: 12%;
+    margin-left: 4%;
   }
 }
