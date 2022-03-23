@@ -1,91 +1,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Spartan:wght@100&display=swap");
 
-
 :root {
- --firstColor: #172b3b;
- --secondColor: #e2ebf3;
- --thirdColor: #f4797a;
- --primary-font: "League Spartan";
- --secondary-font: "Bebas Neue";
+  --firstColor: #172b3b;
+  --secondColor: #e2ebf3;
+  --thirdColor: #f4797a;
+  --primary-font: "League Spartan";
+  --secondary-font: "Bebas Neue";
 }
-.faimCategorie{
-    margin: 1rem auto;
-    width: 80vw;   
-    border-radius: 10px;    
+.faimCategorie {
+  margin: 1rem auto;
+  width: 80vw;
+  border-radius: 10px;
+  background-position: center center;
+  background-size: cover;
 }
-.BackgroundBurger{
-    background-image: url("images/pictureTag/burgerbagel.jpg");
-    background-position: center center;
-    background-size: cover;
+.Burger {
+  background-image: url("images/pictureTag/burgerbagel.jpg");
 }
-.BackgroundSandwich{
-    background-image: url("images/pictureTag/sandwich.jpg");
-    background-position: center center;
-    background-size: cover;
+.Sandwich {
+  background-image: url("images/pictureTag/sandwich.jpg");
 }
-.BackgroundPizza{
-    background-image: url("images/pictureTag/pizza.jpg");
-    background-position: center center;
-    background-size: cover;
+.Pizza {
+  background-image: url("images/pictureTag/pizza.jpg");
 }
-.BackgroundMonde{
-    background-image: url("images/pictureTag/monde.jpg");
-    background-position: center center;
-    background-size: cover;
+.Monde {
+  background-image: url("images/pictureTag/monde.jpg");
 }
-.BackgroundSalade{
-    background-image: url("images/pictureTag/salade.jpg");
-    background-position: center center;
-    background-size: cover;
+.Salade {
+  background-image: url("images/pictureTag/salade.jpg");
 }
-.BackgroundVege{
-    background-image: url("images/pictureTag/vege.jpg");
-    background-position: center center;
-    background-size: cover;
+.Vege {
+  background-image: url("images/pictureTag/vege.jpg");
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.faimh2{
-    color: white;
-    font-family: var(--primary-font);
-    text-align: center;
-    font-size: 2em;
-    background:rgba(0, 0, 0, 0.616) ;
-    padding: 2.5rem 0;
-    border-radius: 10px;
-    border: var(--thirdColor) solid 0.3vw;
+.faimh2 {
+  color: white;
+  font-family: var(--primary-font);
+  text-align: center;
+  font-size: 2em;
+  background: rgba(0, 0, 0, 0.616);
+  padding: 2.5rem 0;
+  border-radius: 10px;
+  border: var(--thirdColor) solid 0.3vw;
 }
-.faimh2:hover{
-    background: none;
+.faimh2:hover {
+  background: none;
 }
 
-
-@media screen and (min-width:600px) {
-    .mainCategorie{
-        width: 90vw;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 3rem;
-    }
-    .faimCategorie{
-        width: 25.1vw;
-        height: 5vw;
-        padding: 4.1rem 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .faimh2{
-        font-size: 3em;
-        width: 25vw;
-        height: 5vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 4rem 0;
-    }
+@media screen and (min-width: 600px) {
+  .mainCategorie {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem;
+  }
+  .faimCategorie {
+    width: 25.1vw;
+    height: 5vw;
+    padding: 4.1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .faimh2 {
+    font-size: 3em;
+    width: 25vw;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+  }
 }
