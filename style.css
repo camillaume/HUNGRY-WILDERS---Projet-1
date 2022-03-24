@@ -200,6 +200,7 @@ footer p {
   color: var(--secondColor);
   text-align: center;
   width: 250px;
+  font-size: 1rem;
   margin: 0 auto;
   border-bottom: var(--thirdColor) 2px solid;
   font-family: var(--secondary-font);
@@ -311,6 +312,7 @@ a:link {
   }
   .h2Footer {
     color: var(--secondColor);
+    font-size: 1.5rem;
     text-align: center;
     width: 250px;
     margin: 2rem auto;
