@@ -117,14 +117,19 @@ details a {
 
 @media screen and (min-width: 600px) {
   .facilities {
-    width: 80vw;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    justify-content: space-around;
+  }
+  .droite{
+    width: 40vw;
+  }
+  .gauche{
+    width: 40vw;
   }
   .facility {
-    width: 40%;
+    width: 80%;
     margin: 1vw;
   } 
   h3 {
